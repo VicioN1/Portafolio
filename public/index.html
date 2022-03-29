@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- navegador -->
+    <nav class="navegador">
+        <h1 class="logo">VicioN1</h1>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="contenedor-de-links">
+            <li class="links-item"><a href="#" class="link active">Home</a></li>
+            <li class="links-item"><a href="#about-section" class="link">Sobre Mi</a></li>
+            <li class="links-item"><a href="#project-section" class="link">Proyectos</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--home Seccion-->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Hola,</span> soy Fer</h1>
+            <p class="profession"> Soy programador Full Stack</p>
+            <p class="info">Programador Junior Full Stack, experiencia en Java y programación orientada a objetos.
+                Conocimiento en base de datos MySQL. Especialización en Atención al Cliente Y Sistemas de ticket.
+                Amplios conocimientos en hardware y software. Uso de numerosos lenguajes de programación, incluidos
+                HTML, CSS, Javascript. Buen manejo de SPRING, SPRINGBOOT, BOOSTRAP, GIT.</p>
+            <a href="#contact-section" class="btn">Contacto</a>
+        </div>
+        <img src="img/home.png" class="imagen" alt="">
+
+    </section>
+
+    <!--Sobre Mi seccion-->
+
+    <section class="about" id="about-section">
+        <h2 class="heading">Sobre <span class="highlight">Mi</span></h2>
+        <p class="sub-heading">Me presento, me llamo  Luis Fernando Cordoba y en esta seccion te cuento algo sobre mi...
+        </p>
+        <div class="seperator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <div class="left-col1">
+                    <img src="img/About.jpg" class="imgabout" alt="">
+                </div>
+
+            </div>
+            <div class="right-col">
+                <div class="right-col2">
+                    <p class="about-para">Hola, soy Fer, tengo 24 años y soy de la provincia de Cordóba. Actualmente me encuentro trabajando autonomamente como Tecnico
+                        de PC y Soporte al Cliente, me encuentro incursionando en el mundo IT, donde obtuve certificados de Goolge en colavoracion con Junior Achievement como Soporte It
+                        y en programación Full Stack Web. Sigo formandome en distintas tegnologias de programación y en busqueda activa de mi primera experiencia como developer o soporte.
+                    </p>
+                    <a href="https://drive.google.com/uc?id=1r4u66TgyBgJyXL3hGK9K-kZXABlQ1f0V&export=download" class="btn">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="heading">Lenguajes y Framework que sé</h2>
+        <div class="seperator"></div>
+        <div class="skill-container">
+            <div class="skill-card" style="--bg: #f06529">
+                <p class="skill"> HTML</p>
+            </div>
+            <div class="skill-card" style="--bg: #379ad6">
+                <p class="skill"> CSS</p>
+            </div>
+            <div class="skill-card" style="--bg: #cc6699">
+                <p class="skill"> JAVA</p>
+            </div>
+            <div class="skill-card" style="--bg: #5ed9fb">
+                <p class="skill"> Javascript</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Proyectos Seccion-->
+    <section class="project" id="project-section">
+        <h2 class="heading"><span class="highlight">Mis</span> Proyectos</h2>
+        <p class="sub-heading">Aqui encontraras algunos de mis proyectos terminados.
+        </p>
+        <div class="seperator"></div>
+        <div class="filters">
+            <button class="filter-btn active" id="all">Todo</button>
+            <button class="filter-btn" id="HTML/CSS">HTML/CSS</button>
+            <button class="filter-btn" id="JAVA">JAVA</button>
+            <button class="filter-btn" id="Full Stack">Full Stack</button>
+            <button class="filter-btn" id="Javascript">Javascript</button>
+        </div>
+
+        <div class="project-container">
+            <!--<div class="project-card">
+                <img src="img/img1.jpg" alt="">
+                <div class="content">
+                    <h1 class="project-name">Proyecto uno</h1>
+                    <span class="tags">#javascipt</span>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- CONTACTO-->
+
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Quieres <span class="highlight">Contactarme?</span></h2>
+        <p class="sub-heading">Si tenes dudas sobre mi perfil o algunas preguntas te invito a llenar el formulario dejandome un mensaje.
+        </p>
+        <div class="seperator"></div>
+
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="Nombre">
+                <input type="text" class="last-name" required placeholder="Apellido">
+            </div>
+            <input type="email" required class="email" placeholder="Tu Email">
+            <textarea class="message" placeholder="Dejame Un Mensaje" required></textarea>
+            <button class="btn contact-btn">Contactar</button>
+        </div>
+    </section>
+
+    <footer class="footer">Dios te Bendiga</footer>
+    
+    <script src="project.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
